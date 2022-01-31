@@ -52,7 +52,7 @@ def search_songs(query_text):
     return song_list
 
 if __name__ == '__main__':
-    query_text = "dheera dheera kgf"
+    query_text = "Beat it"
     songs_list = search_songs(query_text)
     urls = []
     for i in songs_list:
